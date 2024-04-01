@@ -1,0 +1,32 @@
+header {
+
+ padding: 2rem $gutter;  
+ h1 { 
+    font-size: 2rem;
+
+ } 
+}
+
+
+   
+
+#cards {
+
+   section {
+   
+   grid-template-areas: 
+   "photo name"
+   "photo name"
+   "photo address"
+   "photo phone";
+   
+   
+   
+   }
+   h2 {width: 200px;}
+   address{ width: 200px;} 
+   img{ width: 100%;}
+   a {
+      padding-top: 35px;
+      
+   }}

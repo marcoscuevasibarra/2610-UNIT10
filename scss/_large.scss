@@ -1,0 +1,74 @@
+header, nav, main {
+
+    max-width: 1240px;
+   
+    margin: auto;
+}
+header {
+    
+    h1 {
+        
+        font-size: 2.5rem;   
+    }   
+    
+      }
+      
+
+      // organizacion de tarjetas 
+
+
+// termina organizacion
+
+
+ 
+    
+
+
+
+   button {display: none;}
+
+   nav {
+    position: static;
+    transform: translateX(0);
+    width: auto;
+    div { display: none;}
+
+      background-color: $menuColor;
+
+      ul { 
+         display: flex;
+         margin-left: 2%;
+         border-left: 1px solid rgba(0,0,0,0.2);
+         
+      }
+      ul li { border-right: 1px solid rgba(0,0,0,0.2);}
+      
+   
+
+      ul li a {
+         display: block;
+         font-size: .8rem;
+         padding: .9rem 1.2rem;
+         color: rgba(0,0,0,0.9);
+         text-decoration: none;
+         transition: background 0.3s linear;
+         border-top: none;
+      }
+      ul li a:hover { background: rgba(0,0,0,0.5);}
+
+      
+/* position and left ocultan submenu */
+      
+
+/* ahora con hover aparece submenu */
+
+
+   }
+   header h1 { text-align: center;}
+
+   #cards {
+display: grid;
+grid-template-columns: 1fr 1fr;
+      
+     address{ width: 200px;} 
+      }
